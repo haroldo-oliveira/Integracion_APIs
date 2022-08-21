@@ -25,6 +25,5 @@ class Info_Ciudad(db.Base):
         Info: {} \n
         Estado Cielo: {}\n
         Temperatura: {}\n
-        Hecha: ({})
-
-                """
+        Hecha: ({})""".format(self.id, self.ciudad, self.estado_cielo,
+                              self.temperatura, self.hecha)
