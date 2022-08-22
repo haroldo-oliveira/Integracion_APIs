@@ -1,6 +1,7 @@
 import db
 from sqlalchemy import Column, Integer, String, Boolean
 
+# --- MODELS, GESTIONA LAS CLASES/TABLAS DB (POO) ---
 class Info_Ciudad(db.Base):
     __tablename__ = "info_ciudad"
     id = Column(Integer, primary_key=True)
