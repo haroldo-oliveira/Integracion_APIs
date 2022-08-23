@@ -39,7 +39,7 @@ def climaCiudades(ciudad):
 #     tiempo = climaCiudades(ciudad)
 
 #                     # https://api.telegram.org/bot<token>/METHOD_NAME
-#     requests.post("https://api.telegram.org/bot5475967725:AAGJ8H4QUEJDOJM9z_-NnBHMowihOXkfG8I/sendMessage",
+#     requests.post("https://api.telegram.org/bot&key="+token_api+"/sendMessage",
 #     data = {
 #             'chat_id': '@haroPrueba',
 #             'text': tiempo
